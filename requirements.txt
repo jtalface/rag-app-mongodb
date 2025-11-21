@@ -1,0 +1,16 @@
+# Core dependencies
+pymongo>=4.6.0
+voyageai>=0.2.0
+requests>=2.31.0
+
+# Text processing and embeddings
+langchain>=0.1.0
+langchain-text-splitters>=0.0.1
+tiktoken>=0.5.0
+
+# Progress bars
+tqdm>=4.66.0
+
+# Development dependencies (optional)
+python-dotenv>=1.0.0
+
