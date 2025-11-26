@@ -9,7 +9,7 @@ pipeline {
             steps {
                 echo "Building.."
                 sh '''
-                echo "doing build stuff..stageddddd"
+                echo "doing build stuff.."
                 '''
             }
         }
@@ -17,7 +17,7 @@ pipeline {
             steps {
                 echo "Testing.."
                 sh '''
-                echo "doing test stuff..testttttt"
+                echo "doing test stuff.."
                 '''
             }
         }
@@ -25,7 +25,7 @@ pipeline {
             steps {
                 echo 'Deliver....'
                 sh '''
-                echo "doing delivery stuff..deployyyyy"
+                echo "doing delivery stuff.."
                 '''
             }
         }
